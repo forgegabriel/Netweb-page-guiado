@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho {
+    padding: 15px;
+    background: linear-gradient(45deg, #fff, #3f51b5);
+}
+
+.cabecalho img {
+    width: 200px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu .btm {
+    color: blue;
+    padding: 5px;
+    border: 1px solid blue;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#tabela-dados {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tabela-dados th {
+    padding: 3px;
+    background-color: black;
+    color: white;
+}
+
+#tabela-dados td {
+    padding: 3px;
+}
+
+#tabela-dados tr td:nth-child(4) {
+    text-align: center;
+}
+
+#tabela-dados tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+#formulario>div {
+    padding: 5px;
+}
+
+#formulario>div>label {
+    display: inline-block;
+    width: 50vw;
+    text-align: right;
+    vertical-align: top;
+}
+
+#formulario>div>div {
+    display: inline-block;
+}
+
+#formulario>button {
+    display: block;
+    margin: 0px auto;
+}
+
+@media only screen and (max-width: 400px) {
+ 
+    #formulario>div>label {
+        width: auto;
+    }
+}
